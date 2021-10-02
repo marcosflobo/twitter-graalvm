@@ -1,3 +1,6 @@
 micronaut:
   application:
     name: twitterGraalvm
+
+twitter:
+  bearer-token: ${BEARER_TOKEN:foo}
